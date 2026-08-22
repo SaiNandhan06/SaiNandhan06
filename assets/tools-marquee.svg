@@ -19,80 +19,28 @@
   <rect x="1" y="1" width="918" height="218" rx="15" fill="none" stroke="#3a8296" stroke-opacity="0.4"/>
 
   <text x="30" y="34" font-family="Consolas, Menlo, monospace" font-size="15" fill="#61DAFB">
-    tools_used.json <tspan fill="#3a8296">— across my projects</tspan>
+    tools_used.json <tspan fill="#3a8296">— live from repo languages &amp; topics</tspan>
   </text>
 
   <g clip-path="url(#clip)">
-
-    <!-- ROW 1: core languages + workflow, scrolls left -->
+    
     <g transform="translate(30,58)">
       <g>
         <animateTransform attributeName="transform" attributeType="XML" type="translate"
-                           values="0 0; -968 0" dur="22s" repeatCount="indefinite" calcMode="linear"/>
-        <g id="row1set" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="600">
-          <!-- badge template repeated: rect + centered text, pitch 88 -->
-        </g>
-        <!-- set A -->
-        <g font-family="Consolas, Menlo, monospace" font-size="14" font-weight="600" fill="#c8e1ff">
-          <rect x="0"   y="0" width="78" height="46" rx="10" fill="#0f2833" stroke="#3a8296"/><text x="39" y="29" text-anchor="middle">Python</text>
-          <rect x="88"  y="0" width="78" height="46" rx="10" fill="#0f2833" stroke="#3a8296"/><text x="127" y="29" text-anchor="middle">Java</text>
-          <rect x="176" y="0" width="78" height="46" rx="10" fill="#0f2833" stroke="#3a8296"/><text x="215" y="29" text-anchor="middle">C</text>
-          <rect x="264" y="0" width="78" height="46" rx="10" fill="#0f2833" stroke="#3a8296"/><text x="303" y="29" text-anchor="middle">C++</text>
-          <rect x="352" y="0" width="78" height="46" rx="10" fill="#0f2833" stroke="#3a8296"/><text x="391" y="29" text-anchor="middle">JS</text>
-          <rect x="440" y="0" width="78" height="46" rx="10" fill="#0f2833" stroke="#3a8296"/><text x="479" y="29" text-anchor="middle">HTML</text>
-          <rect x="528" y="0" width="78" height="46" rx="10" fill="#0f2833" stroke="#3a8296"/><text x="567" y="29" text-anchor="middle">CSS</text>
-          <rect x="616" y="0" width="78" height="46" rx="10" fill="#0f2833" stroke="#3a8296"/><text x="655" y="29" text-anchor="middle">Git</text>
-          <rect x="704" y="0" width="78" height="46" rx="10" fill="#0f2833" stroke="#3a8296"/><text x="743" y="29" text-anchor="middle">GitHub</text>
-          <rect x="792" y="0" width="78" height="46" rx="10" fill="#0f2833" stroke="#3a8296"/><text x="831" y="29" text-anchor="middle">VS Code</text>
-          <rect x="880" y="0" width="78" height="46" rx="10" fill="#0f2833" stroke="#3a8296"/><text x="919" y="29" text-anchor="middle">Linux</text>
-        </g>
-        <!-- set B (duplicate offset by 968 for seamless loop) -->
-        <g transform="translate(968,0)" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="600" fill="#c8e1ff">
-          <rect x="0"   y="0" width="78" height="46" rx="10" fill="#0f2833" stroke="#3a8296"/><text x="39" y="29" text-anchor="middle">Python</text>
-          <rect x="88"  y="0" width="78" height="46" rx="10" fill="#0f2833" stroke="#3a8296"/><text x="127" y="29" text-anchor="middle">Java</text>
-          <rect x="176" y="0" width="78" height="46" rx="10" fill="#0f2833" stroke="#3a8296"/><text x="215" y="29" text-anchor="middle">C</text>
-          <rect x="264" y="0" width="78" height="46" rx="10" fill="#0f2833" stroke="#3a8296"/><text x="303" y="29" text-anchor="middle">C++</text>
-          <rect x="352" y="0" width="78" height="46" rx="10" fill="#0f2833" stroke="#3a8296"/><text x="391" y="29" text-anchor="middle">JS</text>
-          <rect x="440" y="0" width="78" height="46" rx="10" fill="#0f2833" stroke="#3a8296"/><text x="479" y="29" text-anchor="middle">HTML</text>
-          <rect x="528" y="0" width="78" height="46" rx="10" fill="#0f2833" stroke="#3a8296"/><text x="567" y="29" text-anchor="middle">CSS</text>
-          <rect x="616" y="0" width="78" height="46" rx="10" fill="#0f2833" stroke="#3a8296"/><text x="655" y="29" text-anchor="middle">Git</text>
-          <rect x="704" y="0" width="78" height="46" rx="10" fill="#0f2833" stroke="#3a8296"/><text x="743" y="29" text-anchor="middle">GitHub</text>
-          <rect x="792" y="0" width="78" height="46" rx="10" fill="#0f2833" stroke="#3a8296"/><text x="831" y="29" text-anchor="middle">VS Code</text>
-          <rect x="880" y="0" width="78" height="46" rx="10" fill="#0f2833" stroke="#3a8296"/><text x="919" y="29" text-anchor="middle">Linux</text>
-        </g>
+                           values="0 0; -614 0" dur="22s" repeatCount="indefinite" calcMode="linear"/>
+        <g><rect x="0" y="0" width="112" height="46" rx="10" fill="#0f2833" stroke="#3a8296" stroke-opacity="0.7"/><text x="56.0" y="28.0" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="600" fill="#c8e1ff">JavaScript</text><rect x="122" y="0" width="78" height="46" rx="10" fill="#0f2833" stroke="#3a8296" stroke-opacity="0.7"/><text x="161.0" y="28.0" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="600" fill="#c8e1ff">Python</text><rect x="210" y="0" width="61" height="46" rx="10" fill="#0f2833" stroke="#3a8296" stroke-opacity="0.7"/><text x="240.5" y="28.0" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="600" fill="#c8e1ff">Java</text><rect x="281" y="0" width="112" height="46" rx="10" fill="#0f2833" stroke="#3a8296" stroke-opacity="0.7"/><text x="337.0" y="28.0" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="600" fill="#c8e1ff">TypeScript</text><rect x="403" y="0" width="61" height="46" rx="10" fill="#0f2833" stroke="#3a8296" stroke-opacity="0.7"/><text x="433.5" y="28.0" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="600" fill="#c8e1ff">HTML</text><rect x="474" y="0" width="60" height="46" rx="10" fill="#0f2833" stroke="#3a8296" stroke-opacity="0.7"/><text x="504.0" y="28.0" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="600" fill="#c8e1ff">CSS</text><rect x="544" y="0" width="60" height="46" rx="10" fill="#0f2833" stroke="#3a8296" stroke-opacity="0.7"/><text x="574.0" y="28.0" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="600" fill="#c8e1ff">C</text></g>
+        <g transform="translate(614,0)"><rect x="0" y="0" width="112" height="46" rx="10" fill="#0f2833" stroke="#3a8296" stroke-opacity="0.7"/><text x="56.0" y="28.0" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="600" fill="#c8e1ff">JavaScript</text><rect x="122" y="0" width="78" height="46" rx="10" fill="#0f2833" stroke="#3a8296" stroke-opacity="0.7"/><text x="161.0" y="28.0" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="600" fill="#c8e1ff">Python</text><rect x="210" y="0" width="61" height="46" rx="10" fill="#0f2833" stroke="#3a8296" stroke-opacity="0.7"/><text x="240.5" y="28.0" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="600" fill="#c8e1ff">Java</text><rect x="281" y="0" width="112" height="46" rx="10" fill="#0f2833" stroke="#3a8296" stroke-opacity="0.7"/><text x="337.0" y="28.0" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="600" fill="#c8e1ff">TypeScript</text><rect x="403" y="0" width="61" height="46" rx="10" fill="#0f2833" stroke="#3a8296" stroke-opacity="0.7"/><text x="433.5" y="28.0" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="600" fill="#c8e1ff">HTML</text><rect x="474" y="0" width="60" height="46" rx="10" fill="#0f2833" stroke="#3a8296" stroke-opacity="0.7"/><text x="504.0" y="28.0" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="600" fill="#c8e1ff">CSS</text><rect x="544" y="0" width="60" height="46" rx="10" fill="#0f2833" stroke="#3a8296" stroke-opacity="0.7"/><text x="574.0" y="28.0" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="600" fill="#c8e1ff">C</text></g>
       </g>
     </g>
-
-    <!-- ROW 2: AI/ML + infra, scrolls right -->
+    
     <g transform="translate(30,142)">
       <g>
         <animateTransform attributeName="transform" attributeType="XML" type="translate"
-                           values="-880 0; 0 0" dur="26s" repeatCount="indefinite" calcMode="linear"/>
-        <g font-family="Consolas, Menlo, monospace" font-size="14" font-weight="600" fill="#c8e1ff">
-          <rect x="0"   y="0" width="88" height="46" rx="10" fill="#0f2833" stroke="#61DAFB" stroke-opacity="0.6"/><text x="44" y="29" text-anchor="middle">PyTorch</text>
-          <rect x="98"  y="0" width="98" height="46" rx="10" fill="#0f2833" stroke="#61DAFB" stroke-opacity="0.6"/><text x="147" y="29" text-anchor="middle">TensorFlow</text>
-          <rect x="206" y="0" width="88" height="46" rx="10" fill="#0f2833" stroke="#61DAFB" stroke-opacity="0.6"/><text x="250" y="29" text-anchor="middle">Flask</text>
-          <rect x="304" y="0" width="98" height="46" rx="10" fill="#0f2833" stroke="#61DAFB" stroke-opacity="0.6"/><text x="353" y="29" text-anchor="middle">FastAPI</text>
-          <rect x="412" y="0" width="88" height="46" rx="10" fill="#0f2833" stroke="#61DAFB" stroke-opacity="0.6"/><text x="456" y="29" text-anchor="middle">Docker</text>
-          <rect x="510" y="0" width="98" height="46" rx="10" fill="#0f2833" stroke="#61DAFB" stroke-opacity="0.6"/><text x="559" y="29" text-anchor="middle">MongoDB</text>
-          <rect x="618" y="0" width="88" height="46" rx="10" fill="#0f2833" stroke="#61DAFB" stroke-opacity="0.6"/><text x="662" y="29" text-anchor="middle">MySQL</text>
-          <rect x="716" y="0" width="98" height="46" rx="10" fill="#0f2833" stroke="#61DAFB" stroke-opacity="0.6"/><text x="765" y="29" text-anchor="middle">Jupyter</text>
-          <rect x="824" y="0" width="108" height="46" rx="10" fill="#0f2833" stroke="#61DAFB" stroke-opacity="0.6"/><text x="878" y="29" text-anchor="middle">LangChain</text>
-        </g>
-        <g transform="translate(942,0)" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="600" fill="#c8e1ff">
-          <rect x="0"   y="0" width="88" height="46" rx="10" fill="#0f2833" stroke="#61DAFB" stroke-opacity="0.6"/><text x="44" y="29" text-anchor="middle">PyTorch</text>
-          <rect x="98"  y="0" width="98" height="46" rx="10" fill="#0f2833" stroke="#61DAFB" stroke-opacity="0.6"/><text x="147" y="29" text-anchor="middle">TensorFlow</text>
-          <rect x="206" y="0" width="88" height="46" rx="10" fill="#0f2833" stroke="#61DAFB" stroke-opacity="0.6"/><text x="250" y="29" text-anchor="middle">Flask</text>
-          <rect x="304" y="0" width="98" height="46" rx="10" fill="#0f2833" stroke="#61DAFB" stroke-opacity="0.6"/><text x="353" y="29" text-anchor="middle">FastAPI</text>
-          <rect x="412" y="0" width="88" height="46" rx="10" fill="#0f2833" stroke="#61DAFB" stroke-opacity="0.6"/><text x="456" y="29" text-anchor="middle">Docker</text>
-          <rect x="510" y="0" width="98" height="46" rx="10" fill="#0f2833" stroke="#61DAFB" stroke-opacity="0.6"/><text x="559" y="29" text-anchor="middle">MongoDB</text>
-          <rect x="618" y="0" width="88" height="46" rx="10" fill="#0f2833" stroke="#61DAFB" stroke-opacity="0.6"/><text x="662" y="29" text-anchor="middle">MySQL</text>
-          <rect x="716" y="0" width="98" height="46" rx="10" fill="#0f2833" stroke="#61DAFB" stroke-opacity="0.6"/><text x="765" y="29" text-anchor="middle">Jupyter</text>
-          <rect x="824" y="0" width="108" height="46" rx="10" fill="#0f2833" stroke="#61DAFB" stroke-opacity="0.6"/><text x="878" y="29" text-anchor="middle">LangChain</text>
-        </g>
+                           values="-130 0; 0 0" dur="26s" repeatCount="indefinite" calcMode="linear"/>
+        <g><rect x="0" y="0" width="120" height="46" rx="10" fill="#0f2833" stroke="#61DAFB" stroke-opacity="0.7"/><text x="60.0" y="28.0" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="600" fill="#c8e1ff">no data yet</text></g>
+        <g transform="translate(130,0)"><rect x="0" y="0" width="120" height="46" rx="10" fill="#0f2833" stroke="#61DAFB" stroke-opacity="0.7"/><text x="60.0" y="28.0" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="600" fill="#c8e1ff">no data yet</text></g>
       </g>
     </g>
-
     <rect x="0" y="0" width="80" height="220" fill="url(#fadeL)"/>
     <rect x="840" y="0" width="80" height="220" fill="url(#fadeR)"/>
   </g>

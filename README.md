@@ -93,7 +93,14 @@ along the way.
 
 <!-- PROJECTS:START -->
 
-_(will populate automatically once the Action runs)_
+| Project | Description | Language | Stars |
+|---|---|---|---|
+| [DevFlowAI](https://github.com/SaiNandhan06/DevFlowAI) | — | TypeScript | 1 |
+| [SkillStack](https://github.com/SaiNandhan06/SkillStack) | — | JavaScript | 1 |
+| [leetcode_solutions](https://github.com/SaiNandhan06/leetcode_solutions) | — | Java | 0 |
+| [DigitalWallet_MicroService](https://github.com/SaiNandhan06/DigitalWallet_MicroService) | — | Java | 0 |
+| [QR-CodeGenerator](https://github.com/SaiNandhan06/QR-CodeGenerator) | — | JavaScript | 0 |
+| [genAI_TechCorp](https://github.com/SaiNandhan06/genAI_TechCorp) | — | Python | 0 |
 
 <!-- PROJECTS:END -->
 
