@@ -1,0 +1,16 @@
+<svg width="920" height="124" viewBox="0 0 920 124" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#091519"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+  </defs>
+  <rect width="920" height="124" rx="16" fill="url(#bg)"/>
+  <rect x="1" y="1" width="918" height="122" rx="15" fill="none" stroke="#3a8296" stroke-opacity="0.4"/>
+  <text x="30" y="34" font-family="Consolas, Menlo, monospace" font-size="15" fill="#61DAFB">
+    skills.yaml <tspan fill="#3a8296">— waiting for first sync...</tspan>
+  </text>
+  <text x="30" y="80" font-family="Consolas, Menlo, monospace" font-size="13" fill="#8fd4e8">
+    Runs automatically once the GitHub Action executes.
+  </text>
+</svg>

@@ -1,0 +1,59 @@
+<svg width="920" height="260" viewBox="0 0 920 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#091519"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#61DAFB"/>
+      <stop offset="100%" stop-color="#3a8296"/>
+    </linearGradient>
+    <radialGradient id="dotGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#61DAFB" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#61DAFB" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid2" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#61DAFB" stroke-opacity="0.035"/>
+    </pattern>
+  </defs>
+
+  <rect width="920" height="260" rx="16" fill="url(#bg2)"/>
+  <rect width="920" height="260" rx="16" fill="url(#grid2)"/>
+  <rect x="1" y="1" width="918" height="258" rx="15" fill="none" stroke="#3a8296" stroke-opacity="0.4"/>
+
+  <text x="30" y="32" font-family="Consolas, Menlo, monospace" font-size="15" fill="#61DAFB">
+    train.py <tspan fill="#3a8296">— fine-tuning run, M. Sai Nandhan</tspan>
+  </text>
+
+  <line x1="70" y1="210" x2="880" y2="210" stroke="#1c3d45" stroke-width="1.5"/>
+  <line x1="70" y1="60" x2="70" y2="210" stroke="#1c3d45" stroke-width="1.5"/>
+  <text x="475" y="240" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#3a8296">epoch</text>
+  <text x="30" y="135" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#3a8296" transform="rotate(-90 30 135)">loss</text>
+
+  <path id="lossPath"
+        d="M90,75 C 160,95 190,140 240,155 S 330,178 380,185
+           S 470,196 530,199 S 630,203 700,205 S 800,207 860,208"
+        fill="none" stroke="url(#lineGrad)" stroke-width="3" stroke-linecap="round"
+        stroke-dasharray="1000" stroke-dashoffset="1000">
+    <animate attributeName="stroke-dashoffset" from="1000" to="0" dur="3.2s" begin="0.2s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+  </path>
+
+  <circle r="6" fill="#c8e1ff" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.2s" fill="freeze"/>
+    <animateMotion dur="3.2s" begin="0.2s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"><mpath href="#lossPath"/></animateMotion>
+  </circle>
+  <circle cx="860" cy="208" r="14" fill="url(#dotGlow)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="3.4s" fill="freeze"/>
+    <animate attributeName="r" values="14;19;14" dur="2.4s" begin="3.4s" repeatCount="indefinite"/>
+  </circle>
+
+  <g fill="#3a8296" opacity="0.4">
+    <circle cx="150" cy="190" r="2"/><circle cx="320" cy="200" r="2"/><circle cx="470" cy="204" r="2"/>
+    <circle cx="610" cy="206" r="2"/><circle cx="740" cy="207" r="2"/>
+  </g>
+
+  <text x="850" y="60" text-anchor="end" font-family="Consolas, monospace" font-size="12" fill="#61DAFB" opacity="0">
+    loss ↓ 2.31 → 0.09
+    <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="3.4s" fill="freeze"/>
+  </text>
+</svg>

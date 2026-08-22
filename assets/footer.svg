@@ -1,0 +1,26 @@
+<svg width="920" height="120" viewBox="0 0 920 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="100%" stop-color="#091519"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3a8296" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#61DAFB" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="920" height="120" rx="16" fill="url(#bg)"/>
+  <rect x="1" y="1" width="918" height="118" rx="15" fill="none" stroke="#3a8296" stroke-opacity="0.4"/>
+
+  <path fill="url(#wave)" d="M-100,90 C 150,60 300,110 520,80 S 850,55 1020,90 L1020,140 L-100,140 Z">
+    <animateTransform attributeName="transform" type="translate" values="0 0; -50 0; 0 0" dur="9s" repeatCount="indefinite" calcMode="linear"/>
+  </path>
+
+  <text x="460" y="55" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="18" fill="#61DAFB">
+    Thanks for visiting 👋
+  </text>
+  <text x="460" y="80" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="12" fill="#3a8296">
+    always building, always learning
+  </text>
+</svg>

@@ -1,0 +1,62 @@
+<svg width="920" height="220" viewBox="0 0 920 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#091519"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="wave1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3a8296" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#61DAFB" stop-opacity="0.35"/>
+    </linearGradient>
+    <linearGradient id="wave2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#61DAFB" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#3a8296" stop-opacity="0.5"/>
+    </linearGradient>
+    <clipPath id="typeClip">
+      <rect x="0" y="0" width="0" height="60">
+        <animate attributeName="width" from="0" to="450" dur="1.8s" begin="0.3s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.2 1"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <rect width="920" height="220" rx="16" fill="url(#bg)"/>
+  <rect x="1" y="1" width="918" height="218" rx="15" fill="none" stroke="#3a8296" stroke-opacity="0.4"/>
+
+  <!-- drifting background waves (purely decorative, never hides content) -->
+  <g opacity="0.9">
+    <path fill="url(#wave2)" d="M-100,190 C 100,150 250,220 450,180 S 800,150 1020,190 L1020,260 L-100,260 Z">
+      <animateTransform attributeName="transform" type="translate" values="0 0; -60 0; 0 0" dur="10s" repeatCount="indefinite" calcMode="linear"/>
+    </path>
+    <path fill="url(#wave1)" d="M-100,205 C 150,170 300,235 520,195 S 850,165 1020,205 L1020,260 L-100,260 Z">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 50 0; 0 0" dur="13s" repeatCount="indefinite" calcMode="linear"/>
+    </path>
+  </g>
+
+  <!-- name: types on in front, with a moving then blinking cursor -->
+  <g transform="translate(60,65)">
+    <g clip-path="url(#typeClip)">
+      <text x="0" y="40" font-family="Consolas, Menlo, monospace" font-size="42" font-weight="700" fill="#61DAFB">
+        M. Sai Nandhan
+      </text>
+    </g>
+    <rect y="0" width="4" height="42" fill="#61DAFB">
+      <animate attributeName="x" from="0" to="450" dur="1.8s" begin="0.3s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.2 1"/>
+      <animate attributeName="opacity" values="1;1;0;1" keyTimes="0;0.001;0.5;1" dur="1s" begin="2.1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- subtitle: always fully rendered -->
+  <text x="62" y="148" font-family="Consolas, Menlo, monospace" font-size="17" fill="#8fd4e8">
+    AI Full-Stack Developer · BTech CSE, 3rd Year, KL University
+  </text>
+
+  <!-- quote: always fully rendered -->
+  <text x="60" y="185" font-family="Consolas, Menlo, monospace" font-size="13" fill="#3a8296">
+    "Crafting logic and elegance in every line of code."
+  </text>
+
+  <!-- ambient corner glow dot (decorative pulse, static circle is still visible without animation) -->
+  <circle cx="870" cy="45" r="5" fill="#61DAFB">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+</svg>

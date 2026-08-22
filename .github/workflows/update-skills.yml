@@ -1,0 +1,49 @@
+name: Update Profile From Repos
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # once a day at 06:00 UTC
+  push:
+    branches: [main]
+  workflow_dispatch: {}    # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-profile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate skills dashboard from live repo data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_skills_svg.py
+
+      - name: Generate tools marquee from live repo data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_tools_marquee.py
+
+      - name: Update Projects section in README from live repo data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_projects_readme.py
+
+      - name: Commit changes if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/skills-dashboard.svg assets/tools-marquee.svg README.md
+          git diff --staged --quiet || git commit -m "chore: refresh profile from live repo data [automated]"
+          git push

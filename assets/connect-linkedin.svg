@@ -1,0 +1,20 @@
+<svg width="200" height="160" viewBox="0 0 200 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#091519"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#61DAFB" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#61DAFB" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="200" height="160" rx="16" fill="url(#bg)"/>
+  <rect x="1" y="1" width="198" height="158" rx="15" fill="none" stroke="#3a8296" stroke-opacity="0.4"/>
+  <g transform="translate(100,70)">
+    <circle r="32" fill="url(#glow)"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="3s" begin="0.75s" repeatCount="indefinite"/></circle>
+    <circle r="26" fill="#0a1a20" stroke="#61DAFB" stroke-width="1.5"/>
+    <text y="8" text-anchor="middle" font-family="Consolas, monospace" font-size="19" font-weight="700" fill="#61DAFB">in</text>
+    <text y="56" text-anchor="middle" font-family="Consolas, monospace" font-size="13" fill="#c8e1ff">LinkedIn</text>
+  </g>
+</svg>
