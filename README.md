@@ -108,25 +108,25 @@ along the way.
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/SaiNandhan06/leetcode_solutions" target="_blank">
-        <img src="./assets/project-3.svg" width="300" alt="leetcode_solutions"/>
+      <a href="https://github.com/SaiNandhan06/codebaseAssisstant" target="_blank">
+        <img src="./assets/project-3.svg" width="300" alt="codebaseAssisstant"/>
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/SaiNandhan06/DigitalWallet_MicroService" target="_blank">
-        <img src="./assets/project-4.svg" width="300" alt="DigitalWallet_MicroService"/>
+      <a href="https://github.com/SaiNandhan06/leetcode_solutions" target="_blank">
+        <img src="./assets/project-4.svg" width="300" alt="leetcode_solutions"/>
       </a>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/SaiNandhan06/QR-CodeGenerator" target="_blank">
-        <img src="./assets/project-5.svg" width="300" alt="QR-CodeGenerator"/>
+      <a href="https://github.com/SaiNandhan06/DigitalWallet_MicroService" target="_blank">
+        <img src="./assets/project-5.svg" width="300" alt="DigitalWallet_MicroService"/>
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/SaiNandhan06/genAI_TechCorp" target="_blank">
-        <img src="./assets/project-6.svg" width="300" alt="genAI_TechCorp"/>
+      <a href="https://github.com/SaiNandhan06/QR-CodeGenerator" target="_blank">
+        <img src="./assets/project-6.svg" width="300" alt="QR-CodeGenerator"/>
       </a>
     </td>
   </tr>
