@@ -93,14 +93,44 @@ along the way.
 
 <!-- PROJECTS:START -->
 
-| Project | Description | Language | Stars |
-|---|---|---|---|
-| [DevFlowAI](https://github.com/SaiNandhan06/DevFlowAI) | — | TypeScript | 1 |
-| [SkillStack](https://github.com/SaiNandhan06/SkillStack) | — | JavaScript | 1 |
-| [leetcode_solutions](https://github.com/SaiNandhan06/leetcode_solutions) | — | Java | 0 |
-| [DigitalWallet_MicroService](https://github.com/SaiNandhan06/DigitalWallet_MicroService) | — | Java | 0 |
-| [QR-CodeGenerator](https://github.com/SaiNandhan06/QR-CodeGenerator) | — | JavaScript | 0 |
-| [genAI_TechCorp](https://github.com/SaiNandhan06/genAI_TechCorp) | — | Python | 0 |
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="https://github.com/SaiNandhan06/DevFlowAI" target="_blank">
+        <img src="./assets/project-1.svg" width="300" alt="DevFlowAI"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/SaiNandhan06/SkillStack" target="_blank">
+        <img src="./assets/project-2.svg" width="300" alt="SkillStack"/>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/SaiNandhan06/leetcode_solutions" target="_blank">
+        <img src="./assets/project-3.svg" width="300" alt="leetcode_solutions"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/SaiNandhan06/DigitalWallet_MicroService" target="_blank">
+        <img src="./assets/project-4.svg" width="300" alt="DigitalWallet_MicroService"/>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/SaiNandhan06/QR-CodeGenerator" target="_blank">
+        <img src="./assets/project-5.svg" width="300" alt="QR-CodeGenerator"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/SaiNandhan06/genAI_TechCorp" target="_blank">
+        <img src="./assets/project-6.svg" width="300" alt="genAI_TechCorp"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
 <!-- PROJECTS:END -->
 
