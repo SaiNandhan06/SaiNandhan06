@@ -2,39 +2,19 @@
   <img src="./assets/banner.svg" width="100%" alt="M. Sai Nandhan"/>
 </p>
 
-<style>
-  .social-links {
-    text-align: center;
-    margin: 20px 0;
-    font-family: Arial, sans-serif;
-  }
-
-  .social-links a {
-    color: #2563eb;
-    text-decoration: none;
-    font-weight: 600;
-    padding: 0 10px;
-    transition: color 0.3s ease, text-shadow 0.3s ease;
-  }
-
-  .social-links a:hover {
-    color: #7c3aed;
-    text-shadow: 0 0 8px rgba(124, 58, 237, 0.4);
-  }
-
-  .social-links span {
-    color: #9ca3af;
-  }
-</style>
-
-<p class="social-links">
-  <a href="mailto:sainandhanmucharla@gmail.com">Gmail</a>
-  <span>·</span>
-  <a href="https://www.linkedin.com/in/sainandhan">LinkedIn</a>
-  <span>·</span>
-  <a href="https://www.instagram.com/nandhan2006/">Instagram</a>
-  <span>·</span>
-  <a href="https://github.com/SaiNandhan06">GitHub</a>
+<p align="center">
+  <a href="mailto:sainandhanmucharla@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
+  </a>
+  <a href="https://www.linkedin.com/in/sainandhan">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="https://www.instagram.com/nandhan2006/">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
+  </a>
+  <a href="https://github.com/SaiNandhan06">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
 </p>
 
 ---
