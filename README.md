@@ -2,10 +2,38 @@
   <img src="./assets/banner.svg" width="100%" alt="M. Sai Nandhan"/>
 </p>
 
-<p align="center">
-  <a href="mailto:sainandhanmucharla@gmail.com">Gmail</a> ·
-  <a href="https://www.linkedin.com/in/sainandhan">LinkedIn</a> ·
-  <a href="https://www.instagram.com/nandhan2006/">Instagram</a> ·
+<style>
+  .social-links {
+    text-align: center;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .social-links a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0 10px;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+  }
+
+  .social-links a:hover {
+    color: #7c3aed;
+    text-shadow: 0 0 8px rgba(124, 58, 237, 0.4);
+  }
+
+  .social-links span {
+    color: #9ca3af;
+  }
+</style>
+
+<p class="social-links">
+  <a href="mailto:sainandhanmucharla@gmail.com">Gmail</a>
+  <span>·</span>
+  <a href="https://www.linkedin.com/in/sainandhan">LinkedIn</a>
+  <span>·</span>
+  <a href="https://www.instagram.com/nandhan2006/">Instagram</a>
+  <span>·</span>
   <a href="https://github.com/SaiNandhan06">GitHub</a>
 </p>
 
