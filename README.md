@@ -136,13 +136,13 @@ along the way.
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/SaiNandhan06/codebaseAssisstant" target="_blank">
-        <img src="./assets/project-3.svg" width="300" alt="codebaseAssisstant"/>
+      <a href="https://github.com/SaiNandhan06/leetcode_solutions" target="_blank">
+        <img src="./assets/project-3.svg" width="300" alt="leetcode_solutions"/>
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/SaiNandhan06/leetcode_solutions" target="_blank">
-        <img src="./assets/project-4.svg" width="300" alt="leetcode_solutions"/>
+      <a href="https://github.com/SaiNandhan06/codebaseAssisstant" target="_blank">
+        <img src="./assets/project-4.svg" width="300" alt="codebaseAssisstant"/>
       </a>
     </td>
   </tr>
