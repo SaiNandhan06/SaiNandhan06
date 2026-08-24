@@ -104,37 +104,37 @@ along the way.
 <table align="center">
   <tr>
     <td align="center">
-      <a href="https://github.com/SaiNandhan06/DevFlowAI" target="_blank">
-        <img src="./assets/project-1.svg" width="300" alt="DevFlowAI"/>
+      <a href="https://github.com/SaiNandhan06/codebaseAssisstant" target="_blank">
+        <img src="./assets/project-1.svg" width="300" alt="codebaseAssisstant"/>
       </a>
     </td>
     <td align="center">
+      <a href="https://github.com/SaiNandhan06/DevFlowAI" target="_blank">
+        <img src="./assets/project-2.svg" width="300" alt="DevFlowAI"/>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
       <a href="https://github.com/SaiNandhan06/SkillStack" target="_blank">
-        <img src="./assets/project-2.svg" width="300" alt="SkillStack"/>
+        <img src="./assets/project-3.svg" width="300" alt="SkillStack"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/SaiNandhan06/trafficMontioring" target="_blank">
+        <img src="./assets/project-4.svg" width="300" alt="trafficMontioring"/>
       </a>
     </td>
   </tr>
   <tr>
     <td align="center">
       <a href="https://github.com/SaiNandhan06/leetcode_solutions" target="_blank">
-        <img src="./assets/project-3.svg" width="300" alt="leetcode_solutions"/>
+        <img src="./assets/project-5.svg" width="300" alt="leetcode_solutions"/>
       </a>
     </td>
-    <td align="center">
-      <a href="https://github.com/SaiNandhan06/codebaseAssisstant" target="_blank">
-        <img src="./assets/project-4.svg" width="300" alt="codebaseAssisstant"/>
-      </a>
-    </td>
-  </tr>
-  <tr>
     <td align="center">
       <a href="https://github.com/SaiNandhan06/DigitalWallet_MicroService" target="_blank">
-        <img src="./assets/project-5.svg" width="300" alt="DigitalWallet_MicroService"/>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/SaiNandhan06/QR-CodeGenerator" target="_blank">
-        <img src="./assets/project-6.svg" width="300" alt="QR-CodeGenerator"/>
+        <img src="./assets/project-6.svg" width="300" alt="DigitalWallet_MicroService"/>
       </a>
     </td>
   </tr>
