@@ -56,12 +56,12 @@
     <text x="30" y="198" fill="#c8e1ff" font-family="Consolas, Menlo, monospace" font-size="13">TypeScript</text>
     <rect x="220" y="184" width="560" height="16" rx="8" fill="#0f2833"/>
     <rect x="220" y="184" height="16" rx="8" fill="url(#barFill)" width="0">
-      <animate attributeName="width" from="0" to="68" dur="1.4s" begin="0.8s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+      <animate attributeName="width" from="0" to="79" dur="1.4s" begin="0.8s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
     </rect>
     <text font-size="12" fill="#61DAFB" y="198" opacity="0" font-family="Consolas, Menlo, monospace">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.2s" fill="freeze"/>
-      <animate attributeName="x" from="230" to="298" dur="1.4s" begin="0.8s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
-      5%
+      <animate attributeName="x" from="230" to="309" dur="1.4s" begin="0.8s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+      6%
     </text>
 
     <text x="30" y="238" fill="#c8e1ff" font-family="Consolas, Menlo, monospace" font-size="13">HTML</text>
