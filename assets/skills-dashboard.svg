@@ -45,11 +45,11 @@
     <text x="30" y="158" fill="#c8e1ff" font-family="Consolas, Menlo, monospace" font-size="13">Java</text>
     <rect x="220" y="144" width="560" height="16" rx="8" fill="#0f2833"/>
     <rect x="220" y="144" height="16" rx="8" fill="url(#barFill)" width="0">
-      <animate attributeName="width" from="0" to="134" dur="1.4s" begin="0.6s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+      <animate attributeName="width" from="0" to="135" dur="1.4s" begin="0.6s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
     </rect>
     <text font-size="12" fill="#61DAFB" y="158" opacity="0" font-family="Consolas, Menlo, monospace">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.0s" fill="freeze"/>
-      <animate attributeName="x" from="230" to="364" dur="1.4s" begin="0.6s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+      <animate attributeName="x" from="230" to="365" dur="1.4s" begin="0.6s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
       10%
     </text>
 

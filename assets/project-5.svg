@@ -8,12 +8,12 @@
   <rect width="300" height="130" rx="14" fill="url(#bg)"/>
   <rect x="1" y="1" width="298" height="128" rx="13" fill="none" stroke="#3a8296" stroke-opacity="0.5"/>
 
-  <text x="18" y="34" font-family="Consolas, Menlo, monospace" font-size="16" font-weight="700" fill="#61DAFB">leetcode_solutions</text>
+  <text x="18" y="34" font-family="Consolas, Menlo, monospace" font-size="16" font-weight="700" fill="#61DAFB">trafficMontioring</text>
 
   <text x="18" y="58" font-family="Consolas, Menlo, monospace" font-size="12" fill="#8fd4e8">No description yet</text>
 
-  <circle cx="24" cy="102" r="5" fill="#b07219"/>
-  <text x="36" y="106" font-family="Consolas, Menlo, monospace" font-size="12" fill="#c8e1ff">Java</text>
+  <circle cx="24" cy="102" r="5" fill="#3572A5"/>
+  <text x="36" y="106" font-family="Consolas, Menlo, monospace" font-size="12" fill="#c8e1ff">Python</text>
 
   <path d="M258,94 L260.5,99 L266,99.7 L262,103.4 L263,109 L258,106.2 L253,109 L254,103.4 L250,99.7 L255.5,99 Z" fill="#61DAFB"/>
   <text x="272" y="106" font-family="Consolas, Menlo, monospace" font-size="12" fill="#c8e1ff">0</text>
