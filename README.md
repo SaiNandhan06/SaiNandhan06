@@ -104,13 +104,13 @@ along the way.
 <table align="center">
   <tr>
     <td align="center">
-      <a href="https://github.com/SaiNandhan06/codebaseAssisstant" target="_blank">
-        <img src="./assets/project-1.svg" width="300" alt="codebaseAssisstant"/>
+      <a href="https://github.com/SaiNandhan06/ResolveNow" target="_blank">
+        <img src="./assets/project-1.svg" width="300" alt="ResolveNow"/>
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/SaiNandhan06/ResolveNow" target="_blank">
-        <img src="./assets/project-2.svg" width="300" alt="ResolveNow"/>
+      <a href="https://github.com/SaiNandhan06/codebaseAssisstant" target="_blank">
+        <img src="./assets/project-2.svg" width="300" alt="codebaseAssisstant"/>
       </a>
     </td>
   </tr>
