@@ -128,13 +128,13 @@ along the way.
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/SaiNandhan06/leetcode_solutions" target="_blank">
-        <img src="./assets/project-5.svg" width="300" alt="leetcode_solutions"/>
+      <a href="https://github.com/SaiNandhan06/loanApprovalMLModel" target="_blank">
+        <img src="./assets/project-5.svg" width="300" alt="loanApprovalMLModel"/>
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/SaiNandhan06/trafficMontioring" target="_blank">
-        <img src="./assets/project-6.svg" width="300" alt="trafficMontioring"/>
+      <a href="https://github.com/SaiNandhan06/leetcode_solutions" target="_blank">
+        <img src="./assets/project-6.svg" width="300" alt="leetcode_solutions"/>
       </a>
     </td>
   </tr>
