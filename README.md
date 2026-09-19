@@ -133,8 +133,8 @@ along the way.
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/SaiNandhan06/leetcode_solutions" target="_blank">
-        <img src="./assets/project-6.svg" width="300" alt="leetcode_solutions"/>
+      <a href="https://github.com/SaiNandhan06/PacmanGame" target="_blank">
+        <img src="./assets/project-6.svg" width="300" alt="PacmanGame"/>
       </a>
     </td>
   </tr>
