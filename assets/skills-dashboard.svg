@@ -28,18 +28,18 @@
     <text font-size="12" fill="#61DAFB" y="78" opacity="0" font-family="Consolas, Menlo, monospace">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.6s" fill="freeze"/>
       <animate attributeName="x" from="230" to="790" dur="1.4s" begin="0.2s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
-      35%
+      32%
     </text>
 
     <text x="30" y="118" fill="#c8e1ff" font-family="Consolas, Menlo, monospace" font-size="13">JavaScript</text>
     <rect x="220" y="104" width="560" height="16" rx="8" fill="#0f2833"/>
     <rect x="220" y="104" height="16" rx="8" fill="url(#barFill)" width="0">
-      <animate attributeName="width" from="0" to="444" dur="1.4s" begin="0.4s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+      <animate attributeName="width" from="0" to="532" dur="1.4s" begin="0.4s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
     </rect>
     <text font-size="12" fill="#61DAFB" y="118" opacity="0" font-family="Consolas, Menlo, monospace">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.8s" fill="freeze"/>
-      <animate attributeName="x" from="230" to="674" dur="1.4s" begin="0.4s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
-      28%
+      <animate attributeName="x" from="230" to="762" dur="1.4s" begin="0.4s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+      31%
     </text>
 
     <text x="30" y="158" fill="#c8e1ff" font-family="Consolas, Menlo, monospace" font-size="13">Python</text>
@@ -50,7 +50,7 @@
     <text font-size="12" fill="#61DAFB" y="158" opacity="0" font-family="Consolas, Menlo, monospace">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.0s" fill="freeze"/>
       <animate attributeName="x" from="230" to="637" dur="1.4s" begin="0.6s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
-      25%
+      23%
     </text>
 
     <text x="30" y="198" fill="#c8e1ff" font-family="Consolas, Menlo, monospace" font-size="13">Java</text>
@@ -61,29 +61,29 @@
     <text font-size="12" fill="#61DAFB" y="198" opacity="0" font-family="Consolas, Menlo, monospace">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.2s" fill="freeze"/>
       <animate attributeName="x" from="230" to="358" dur="1.4s" begin="0.8s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
-      8%
+      7%
     </text>
 
     <text x="30" y="238" fill="#c8e1ff" font-family="Consolas, Menlo, monospace" font-size="13">HTML</text>
     <rect x="220" y="224" width="560" height="16" rx="8" fill="#0f2833"/>
     <rect x="220" y="224" height="16" rx="8" fill="url(#barFill)" width="0">
-      <animate attributeName="width" from="0" to="29" dur="1.4s" begin="1.0s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+      <animate attributeName="width" from="0" to="50" dur="1.4s" begin="1.0s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
     </rect>
     <text font-size="12" fill="#61DAFB" y="238" opacity="0" font-family="Consolas, Menlo, monospace">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.4s" fill="freeze"/>
-      <animate attributeName="x" from="230" to="259" dur="1.4s" begin="1.0s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
-      2%
+      <animate attributeName="x" from="230" to="280" dur="1.4s" begin="1.0s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+      3%
     </text>
 
     <text x="30" y="278" fill="#c8e1ff" font-family="Consolas, Menlo, monospace" font-size="13">CSS</text>
     <rect x="220" y="264" width="560" height="16" rx="8" fill="#0f2833"/>
     <rect x="220" y="264" height="16" rx="8" fill="url(#barFill)" width="0">
-      <animate attributeName="width" from="0" to="26" dur="1.4s" begin="1.2s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+      <animate attributeName="width" from="0" to="47" dur="1.4s" begin="1.2s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
     </rect>
     <text font-size="12" fill="#61DAFB" y="278" opacity="0" font-family="Consolas, Menlo, monospace">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.6s" fill="freeze"/>
-      <animate attributeName="x" from="230" to="256" dur="1.4s" begin="1.2s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
-      2%
+      <animate attributeName="x" from="230" to="277" dur="1.4s" begin="1.2s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+      3%
     </text>
   </g>
 </svg>
